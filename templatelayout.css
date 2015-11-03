@@ -1,0 +1,61 @@
+﻿/* CSS layout */
+body {
+	margin: 0;
+	padding: 0;	
+}
+
+#pageheader1 {
+	width: 750px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+#pageheader2 {
+	width: 750px;
+	height: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+#masthead {
+	width: 750px;
+	height: 275px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+
+#links {
+	float: left;
+	height: 275px;
+	width: 230px;
+}
+
+#header {
+	float: right;	
+	width: 520px;
+	height: 275px;
+}
+
+#container {
+	clear: both;
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}
+
+#page_content {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#footer {
+	width: 750px;
+	height: 180px;
+	clear: both;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:white;
+}

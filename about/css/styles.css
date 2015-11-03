@@ -1,0 +1,9 @@
+.imgDiv {
+	float: left;
+	width: 350px;
+}
+
+.textDiv {
+	width: 500px;
+	float: left;
+}

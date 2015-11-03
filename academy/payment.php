@@ -1,0 +1,15 @@
+<?php 
+
+	// Set the page title and include the HTML header:
+	$page_title = 'Payment';
+	$page_section = 'Tuition';
+	
+	require_once ('includes/config.inc.php'); 
+	include ('includes/header.html');
+?>
+
+
+<p>  content </p>
+
+
+<?php include ('includes/footer.html'); ?>

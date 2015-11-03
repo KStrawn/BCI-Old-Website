@@ -1,0 +1,426 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>page2</title>
+<style type="text/css">
+<!--
+body,td,th {
+	font-family: Times New Roman, Times, serif;
+	font-size: medium;
+	color: #431718;
+	font-weight: bold;
+}
+body {
+	background-image: url(../images/background2.gif);
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+a {
+	font-size: medium;
+	color: #431718;
+	font-weight: bold;
+}
+a:visited {
+	color: #964808;
+}
+a:active {
+	color: #964808;
+}
+#container {
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+	background-image: url(../images/table_bkgd.gif);
+}
+#banner-id {
+	height: 50px;
+	width: 750px;
+}
+#links {
+	float: left;
+	height: 275px;
+	width: 220px;
+}
+#right {
+	float: right;
+	height: 275px;
+	width: 530px;
+}
+#main {
+	clear: both;
+	width: 730px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#home-container {
+	height: 20px;
+	width: 220px;
+	margin-top: 20px;
+}
+#home-blank {
+	float: left;
+	height: 20px;
+	width: 163px;
+}
+#home-link {
+	float: right;
+	height: 20px;
+	width: 57px;
+}
+#need-container {
+	height: 20px;
+	width: 220px;
+}
+#need-blank {
+	float: left;
+	height: 20px;
+	width: 128px;
+}
+#need-link {
+	float: right;
+	height: 20px;
+	width: 92px;
+}
+#mission_container {
+	height: 20px;
+	width: 220px;
+}
+#mission-blank {
+	float: left;
+	height: 20px;
+	width: 93px;
+}
+#mission-link {
+	float: right;
+	height: 20px;
+	width: 127px;
+}
+#caring-container {
+	height: 20px;
+	width: 220px;
+}
+#caring-blank {
+	float: left;
+	height: 20px;
+	width: 5px;
+}
+#caring-link {
+	float: right;
+	height: 20px;
+	width: 215px;
+}
+#sponsor-container {
+	height: 20px;
+	width: 220px;
+}
+#sponsor-blank {
+	float: left;
+	height: 20px;
+	width: 42px;
+}
+#sponsor-link {
+	float: right;
+	height: 20px;
+	width: 178px;
+}
+#news-container {
+	height: 20px;
+	width: 220px;
+}
+#news-blank {
+	float: left;
+	height: 20px;
+	width: 79px;
+}
+#news-link {
+	float: right;
+	height: 20px;
+	width: 141px;
+}
+#involved-container {
+	height: 20px;
+	width: 220px;
+}
+#involved-blank {
+	float: left;
+	height: 20px;
+	width: 56px;
+}
+#involved-link {
+	float: right;
+	height: 20px;
+	width: 164px;
+}
+#founder-container {
+	height: 20px;
+	width: 220px;
+}
+#founder-blank {
+	float: left;
+	height: 20px;
+	width: 92px;
+}
+#founder-link {
+	float: right;
+	height: 20px;
+	width: 128px;
+}
+#about-container {
+	float: none;
+	height: 20px;
+	width: 220px;
+}
+#about-blank {
+	float: left;
+	height: 20px;
+	width: 128px;
+}
+#about-link {
+	float: right;
+	height: 20px;
+	width: 92px;
+}
+#contact-container {
+	height: 20px;
+	width: 220px;
+}
+#contact-blank {
+	float: left;
+	height: 20px;
+	width: 133px;
+}
+#contact-link {
+	float: right;
+	height: 20px;
+	width: 87px;
+}
+#faq-container {
+	height: 20px;
+	width: 220px;
+}
+#faq-blank {
+	float: left;
+	height: 20px;
+	width: 173px;
+}
+#faq-link {
+	float: right;
+	height: 20px;
+	width: 47px;
+}
+#container #small-line {
+	width: 750px;
+}
+#bottom-links {
+	width: 700px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-bottom: 10px;
+	margin-left: auto;
+	line-height: 25px;
+}
+#footer-text {
+	width: 750px;
+	height: 102px;
+}
+#footer {
+	width: 750px;
+}
+#spacer {
+	height: 20px;
+	width: 750px;
+}
+.image-left {
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.image-right {
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+.style2 {
+	font-family: "Copperplate Gothic Light";
+	font-size: large;
+	color: #964808;
+}
+.style3 {
+	font-family: "Copperplate Gothic Light";
+	font-size: small;
+	color: #964808;
+}
+.style5 {
+	border-width: 0px;
+}
+.style4 {
+	font-size: medium;
+}
+-->
+</style>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+
+<body onload="MM_preloadImages('../images/home-link2.png','../images/need-link2.png','../images/mission-link2.png','../images/caring-link2.png','../images/sponsor-link2.png','../images/news-link2.png','../images/involved-link2.png','../images/founder-link2.png','../images/about-link2.png','../images/contact-link2.png','../images/faq-link2.png')">
+<div id="container">
+  <div id="banner-top"><img src="../images/topbanner.jpg" width="750" height="50" /></div>
+  <div id="banner-id"><img src="../images/banner-caring.jpg" alt="Caring for Children" width="750" height="50" /></div>
+  
+  <div id="links">
+    <div id="home-container">
+      <div id="home-blank"></div>
+      <div id="home-link"><a href="../index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('a','','../images/home-link2.png',1)"><img src="../images/home-link1.png" alt="Home" name="a" width="57" height="20" border="0" id="a" /></a></div>
+    </div>
+    <div id="need-container">
+      <div id="need-blank"></div>
+      <div id="need-link"><a href="../need/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('b','','../images/need-link2.png',1)"><img src="../images/need-link1.png" alt="The Need" name="b" width="92" height="20" border="0" id="b" /></a></div>
+    </div>
+    <div id="mission_container">
+      <div id="mission-blank"></div>
+      <div id="mission-link"><a href="../mission-trips/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('c','','../images/mission-link2.png',1)"><img src="../images/mission-link1.png" alt="Mission Trips" name="c" width="127" height="20" border="0" id="c" /></a></div>
+    </div>
+    <div id="caring-container">
+      <div id="caring-blank"></div>
+      <div id="caring-link"><a href="../caring/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('d','','../images/caring-link2.png',1)"><img src="../images/caring-link1.png" alt="Caring for Children" name="d" width="215" height="20" border="0" id="d" /></a></div>
+    </div>
+    <div id="sponsor-container">
+      <div id="sponsor-blank"></div>
+      <div id="sponsor-link"><a href="../sponsorship/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('e','','../images/sponsor-link2.png',1)"><img src="../images/sponsor-link1.png" alt="Child Sponsorship" name="e" width="178" height="20" border="0" id="e" /></a></div>
+    </div>
+    <div id="involved-container">
+      <div id="involved-blank"></div>
+      <div id="involved-link"><a href="../getting-involved/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('g','','../images/involved-link2.png',1)"><img src="../images/involved-link1.png" alt="Getting Involved" name="g" width="164" height="20" border="0" id="g" /></a></div>
+    </div>
+    <div id="news-container">
+      <div id="news-blank"></div>
+      <div id="news-link"><a href="../more" target="_blank" onmouseover="MM_swapImage('f','','../images/news-link2.png',1)" onmouseout="MM_swapImgRestore()"><img src="../images/news-link1.png" alt="Current News" name="f" width="141" height="20" border="0" id="f" /></a></div>
+    </div>
+    <div id="founder-container">
+      <div id="founder-blank"></div>
+      <div id="founder-link"><a href="../founder/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('h','','../images/founder-link2.png',1)"><img src="../images/founder-link1.png" alt="Our Founder" name="h" width="128" height="20" border="0" id="h" /></a></div>
+    </div>
+    <div id="about-container">
+      <div id="about-blank"></div>
+      <div id="about-link" style="height: 20px"><a href="../about/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('i','','../images/about-link2.png',1)"><img src="../images/about-link1.png" alt="About Us" name="i" width="92" height="20" border="0" id="i" /></a></div>
+    </div>
+    <div id="contact-container">
+      <div id="contact-blank"></div>
+      <div id="contact-link">
+		  <a href="../partners/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('j','','../images/contact-link2.png',1)"><img src="../images/contact-link1.png" alt="Contact" name="j" width="87" height="20" border="0" id="j" /></a></div>
+    </div>
+    <div id="faq-container">
+      <div id="faq-blank"></div>
+      <div id="faq-link"><a href="../faq/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('k','','../images/faq-link2.png',1)"><img src="../images/faq-link1.png" alt="Frequently Asked Questions" name="k" width="47" height="20" border="0" id="k" /></a></div>
+    </div>
+  </div><!--end links
+   -->
+  
+  <div id="right"><!-- TemplateBeginEditable name="right" --><table width="500" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="500" height="20">&nbsp;</td>
+  </tr>
+  <tr>
+    <!-- #BeginEditable "country" -->
+    <td height="40">&nbsp;</td>
+  <!-- #EndEditable -->
+  </tr>
+  <tr>
+    <!-- #BeginEditable "adana" -->
+    <td height="40">&nbsp;</td>
+  <!-- #EndEditable -->
+  </tr>
+  <tr>
+    <!-- #BeginEditable "academy" -->
+    <td height="40">&nbsp;</td>
+  <!-- #EndEditable -->
+  </tr>
+  <tr>
+    <!-- #BeginEditable "child" -->
+    <td height="40">&nbsp;</td>
+  <!-- #EndEditable -->
+  </tr>
+  <tr>
+    <!-- #BeginEditable "teams" -->
+    <td height="40">&nbsp;</td>
+  <!-- #EndEditable -->
+  </tr>
+  <tr>
+    <!-- #BeginEditable "ministry" -->
+    <td height="40">&nbsp;</td>
+  <!-- #EndEditable -->
+  </tr>
+</table>
+<!-- TemplateEndEditable --></div>
+  
+  <!-- #BeginEditable "main" -->
+  
+  <div id="main"><!-- TemplateBeginEditable name="main" -->main</div>
+  <!-- #EndEditable -->
+  <div id="spacer"></div>
+  <div id="small-line">
+    <div align="center"><img src="../images/line_short.jpg" width="520" height="5" /></div>
+  </div>
+  <div id="bottom-links">
+    <p align="center"><a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../need/index.html">The Need</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../mission-trips/index.html">Mission  Trips</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../caring/index.html">Caring for Children&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="../sponsorship/index.html">Child Sponsorship</a><br />
+      <a href="../getting-involved/index.html">Getting Involved</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../more" target="_blank">Current News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../founder/index.html">Our  Founder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../about/index.html">About Us</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="../partners/index.html">Partners</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../faq/index.html">FAQ</a></p>
+  </div>
+  <div id="footer-text">
+    <div align="center">
+      <table cellpadding="0" cellspacing="0" style="width: 100%">
+		  <tr>
+			  <td><span class="style2"><strong>Blessing the Children International</strong></span><br />
+			  <span class="style3"><strong>2267 Fraser Road&nbsp; -&nbsp; Kawkawlin, MI&nbsp; 
+			  48631-9145</strong></span></td>
+			  <td rowspan="3" style="width: 109px">
+			  <a href="http://www.BlessingTheChildren.org" target="_self">
+			  <img alt="sm logo" height="102" src="../images/logo_small.jpg" width="110" class="style5" /></a></td>
+			  <td>&nbsp;</td>
+		  </tr>
+		  <tr>
+			  <td style="height: 23px">
+			  <img alt="left bar" height="19" src="../images/left_bar.jpg" width="542" /></td>
+			  <td style="height: 23px">
+			  <img alt="right bar" height="19" src="../images/right_bar.jpg" width="77" /></td>
+		  </tr>
+		  <tr>
+			  <td class="style3" style="height: 40px"><span class="style4">Toll Free Phone:&nbsp; 
+			  (888) 269-2719</span><br />
+			  <span class="style4">Email:&nbsp; 
+			  <a href="mailto:Info@BlessingTheChildren.org">Info@BlessingTheChildren.org</a></span></td>
+			  <td style="height: 40px"></td>
+		  </tr>
+	  </table>
+  &nbsp;</div>
+  </div>
+  <div id="footer">
+    <div align="center"><img src="../images/footer.gif" width="750" height="6" /></div>
+  </div>
+ </div>
+<!--end container -->
+</body>
+</html>

@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html dir="ltr" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled 1</title>
+<!-- #EndEditable -->
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+<link href="../templatelayout.css" rel="stylesheet" type="text/css" />
+<link href="../css/globalstyles.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+td {
+	font-family: Calibri, Garamond, "Times New Roman", serif;
+	font-size: medium;
+	font-weight: normal;
+}
+.style3 {
+	font-family: "Copperplate Gothic Light";
+	font-size: small;
+	color: #964808;
+}
+.style7 {
+	text-align: right;
+	font-size: x-small;
+}
+.style8 {
+	font-size: x-small;
+}
+.style9 {
+	border-width: 0;
+}
+.style2 {
+	font-family: "Copperplate Gothic Light";
+	font-size: large;
+	color: #964808;
+	text-align: center;
+}
+.style6 {
+	border-width: 0;
+	margin-left: 0px;
+}
+</style>
+<script type="text/javascript">
+<!--
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-37567729-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+
+</script>
+
+</head>
+
+<body>
+
+<div id="pageheader1">
+	<img alt="top banner" height="50" src="../images/topbanner.jpg" width="750" /></div>
+<div id="pageheader2">
+<!-- #BeginEditable "titlebar" -->
+	<p>(titlebar)</p>
+<!-- #EndEditable -->
+</div>
+<div id="masthead">
+	<div id="links">
+		<table cellpadding="0" cellspacing="0" style="width: 100%; float: right">
+			<tr>
+				<td><a href="../index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('a','','../images/home-link2.png',1)">
+		  <img src="../images/home-link1.png" alt="Home" name="a" width="57" height="20"  id="a" class="style9" style="float: right" /></a></td>
+			</tr>
+			<tr>
+				<td><a href="../need/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('b','','../images/need-link2.png',1)">
+		  <img src="../images/need-link1.png" alt="The Need" name="b" width="92" height="20"  id="b" class="style9" style="float: right" /></a></td>
+			</tr>
+			<tr>
+				<td><a href="../missions/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('c','','../images/mission-link2.png',1)">
+		  <img src="../images/mission-link1.png" alt="Mission Trips" name="c" width="185" height="20"  id="c" class="style6" style="float: right" /></a></td>
+			</tr>
+			<tr>
+				<td><a href="../caring/index.html" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('d','','../images/caring-link2.png',1)">
+		  <img src="../images/caring-link1.png" alt="Caring for Children" name="d" width="215" height="20"  id="d" class="style9" /></a></td>
+			</tr>
+			<tr>
+				<td><button type="button">Click Me!</button></td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+			<tr>
+				<td>&nbsp;</td>
+			</tr>
+		</table>
+	</div>
+	<div id="header">
+		<!-- #BeginEditable "headerimage" -->
+		<p>(headerimage)</p>
+		<!-- #EndEditable -->
+	</div>
+</div>
+<div id="container">
+	<div id="page_content">
+	<!-- #BeginEditable "main" -->
+		<p>(main)</p>
+<!-- #EndEditable -->
+	</div>
+</div>
+<div id="footer">
+	<p class="style1"><a href="../index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../need/index.html">The Need</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../missions/index.html">Mission  Trips</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../caring/index.html">Caring for Children&nbsp;</a>&nbsp;&nbsp;&nbsp;&nbsp; <a href="../sponsorship/index.html">Child Sponsorship</a><br />
+      <a href="../getting-involved/index.html">Getting Involved</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+	<a href="../more">Current News</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../founder/index.html">Our  Founder</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../about/index.html">About Us</a>      <a href="../partners/index.html">Partners</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="../faq/index.html">FAQ</a></p>
+	<table cellpadding="0" cellspacing="0" style="width: 100%">
+		  <tr>
+			  <td>
+			  <p class="style1"><span class="style2">Blessing the Children International</span><br />
+			  <span class="style3"><strong>2267 Fraser Road&nbsp; -&nbsp; Kawkawlin, MI&nbsp; 
+			  48631-9145</strong></span></p>
+			  </td>
+			  <td rowspan="3" style="width: 109px">
+			  <a href="http://www.BlessingTheChildren.org" target="_self">
+			  <img alt="sm logo" height="102" src="../images/logo_small.jpg" width="110" class="style9" /></a></td>
+			  <td>&nbsp;</td>
+		  </tr>
+		  <tr>
+			  <td style="height: 23px">
+			  <img alt="left bar" height="19" src="../images/left_bar.jpg" width="542" /></td>
+			  <td style="height: 23px">
+			  <img alt="right bar" height="19" src="../images/right_bar.jpg" width="77" /></td>
+		  </tr>
+		  <tr>
+			  <td class="style3" style="height: 40px">
+			  <p class="style1">Toll Free Phone:&nbsp; 
+			  (888) 269-2719<br />
+			  Email:&nbsp; 
+			  <a href="mailto:Info@BlessingTheChildren.org">Info@BlessingTheChildren.org</a></p>
+			  </td>
+			  <td>&nbsp;</td>
+		  </tr>
+		  <tr class="style7">
+			  <td class="style8" style="height: 25px" colspan="3">
+			  <a href="../copyright/">© 2001-2009 Blessing the Children 
+			  International</a></td>
+		  </tr>
+	  </table>
+
+</div>
+
+</body>
+
+</html>

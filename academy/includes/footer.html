@@ -1,0 +1,61 @@
+</div>
+		
+	</div>
+	
+	
+	<div id="left">
+		<a href="index.php" ><img src="images/lion.gif" alt="Lion" id="lion"></a> <!-- The main image -->
+		
+		<ul class="mainnav"> <?php
+			if ($page_section == 'Attendance')
+				echo '<li><a href="daily_attendance.php"><strong> Attendance </strong></a></li>';
+			else
+				echo '<li><a href="daily_attendance.php"> Attendance </a></li>';
+			if ($page_section == 'Tuition')
+				echo '<li><a href="payment.php"><strong> Tuition </strong></a></li>';
+			else
+				echo '<li><a href="payment.php"> Tuition </a></li>';
+			if ($page_section == 'Students')
+				echo '<li><a href="general_info.php"><strong> Students </strong></a></li>';
+			else
+				echo '<li><a href="general_info.php"> Students </a></li>';
+			if ($page_section == 'Classes')
+				echo '<li><a href="class_offering.php"><strong> Classes </strong></a></li>';
+			else
+				echo '<li><a href="class_offering.php"> Classes </a></li>';
+			if ($page_section == 'Grades')
+				echo '<li><a href="student_grades.php"><strong> Grades </strong></a></li>';
+			else
+				echo '<li><a href="student_grades.php"> Grades </a></li>';
+			if ($page_section == 'Library')
+				echo '<li><a href="create_class.php"><strong> Library </strong></a></li>';
+			else
+				echo '<li><a href="create_class.php"> Library </a></li>';
+			if ($page_section == 'Staff')
+				echo '<li><a href="staff.php"><strong> Staff </strong></a></li>';
+			else
+				echo '<li><a href="staff.php"> Staff </a></li>';
+			if ($page_section == 'Insert')
+				echo '<li><a href="insert_staff.php"><strong> Insert Staff </strong></a></li>';
+			else
+				echo '<li><a href="insert_staff.php"> Insert Staff </a></li>';
+			echo '<li><a href="insert_staff.php"> test </a></li>';
+		?>
+		</ul>
+	</div>
+
+</div> <!-- contentwrapper div -->
+	
+
+
+	
+
+<div id="footer">
+	<p> copyright </p>
+</div>
+
+</body>
+</html>
+<?php // Flush the buffered output.
+ob_end_flush();
+?>

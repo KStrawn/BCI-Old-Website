@@ -1,0 +1,6 @@
+<configuration>
+    <connectionStrings>
+        <add name="WSS_ContentConnectionString1" connectionString="Data Source=66.188.6.102,1433\Express;Initial Catalog=WSS_Content;Persist Security Info=True;User ID=SQLremote;Password=Free22@@"
+            providerName="System.Data.SqlClient" />
+    </connectionStrings>
+</configuration>

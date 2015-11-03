@@ -1,0 +1,35 @@
+﻿a:link
+{
+	color: blue; 
+}
+a:visited
+{
+	color:  #800080; 
+} 
+a:active 
+{
+	color: #8000FF;
+}
+body
+{
+	font-family: Calibri, Garamond, "Times New Roman", serif;
+}
+h1, h2
+{
+	font-family: "Tempus Sans ITC"; 
+	color: maroon;
+	margin-bottom: 2px;	
+	margin-top: 6px;
+}
+h3, h4
+{
+	font-family: Calibri, Garamond, "Times New Roman", serif; 
+	margin-bottom: 2px;	
+	margin-top: 6px;
+}
+p
+{
+	margin-top: 2px;
+	text-align: left
+}
+

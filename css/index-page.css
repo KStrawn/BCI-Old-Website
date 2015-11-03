@@ -1,0 +1,261 @@
+﻿@charset "utf-8";
+
+/* CSS Document */
+
+#container {
+	background-image: url(../images/table_bkgd.gif);
+	width: 750px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#links-swap {
+	float: left;
+	height: 325px;
+	width: 400px;
+}
+#links {
+	float: left;
+	width: 220px;
+	height: 275px;
+}
+#ls-inner-box {
+	float: left;
+	width: 400px;
+}
+#index-container {
+	height: 20px;
+	width: 220px;
+	margin-top: 20px;
+}
+#index-blank {
+	float: left;
+	height: 20px;
+	width: 163px;
+}
+#index-link  {
+	float: right;
+	height: 20px;
+	width: 57px;
+}
+#needs-container {
+	height: 20px;
+	width: 220px;
+}
+#needs-blank {
+	float: left;
+	height: 20px;
+	width: 128px;
+}
+#needs-link {
+	float: right;
+	height: 20px;
+	width: 92px;
+}
+#mission-container {
+	height: 20px;
+	width: 220px;
+}
+#mission-blank {
+	float: left;
+	height: 20px;
+	width: 93px;
+}
+#mission-link {
+	float: right;
+	height: 20px;
+	width: 127px;
+}
+#caring-container {
+	height: 20px;
+	width: 220px;
+}
+#caring-blank {
+	float: left;
+	height: 20px;
+	width: 5px;
+}
+#caring-link {
+	float: right;
+	height: 20px;
+	width: 215px;
+}
+#sponsorship-container {
+	height: 20px;
+	width: 220px;
+}
+#sponsorship-blank {
+	float: left;
+	height: 20px;
+	width: 42px;
+}
+#sponsorship-link {
+	float: right;
+	height: 20px;
+	width: 178px;
+}
+#involved-container {
+	height: 20px;
+	width: 220px;
+}
+#involved-blank {
+	float: left;
+	height: 20px;
+	width: 56px;
+}
+#involved-link {
+	float: right;
+	height: 20px;
+	width: 164px;
+}
+#news-container {
+	height: 20px;
+	width: 220px;
+}
+#news-blank {
+	float: left;
+	height: 20px;
+	width: 79px;
+}
+#news-link {
+	float: right;
+	height: 20px;
+	width: 141px;
+}
+#founder-container {
+	height: 20px;
+	width: 220px;
+}
+#founder-blank {
+	float: left;
+	height: 20px;
+	width: 92px;
+}
+#founder-link {
+	float: right;
+	height: 20px;
+	width: 128px;
+}
+#about-container {
+	height: 20px;
+	width: 220px;
+}
+#about-blank {
+	float: left;
+	height: 20px;
+	width: 128px;
+}
+#about-link {
+	float: right;
+	height: 20px;
+	width: 92px;
+}
+#contact-container {
+	height: 20px;
+	width: 220px;
+}
+#contact-blank {
+	float: left;
+	height: 20px;
+	width: 133px;
+}
+#contact-link {
+	float: right;
+	height: 20px;
+	width: 87px;
+}
+#faq-container {
+	height: 20px;
+	width: 220px;
+}
+#faq-blank {
+	float: left;
+	height: 20px;
+	width: 173px;
+}
+#faq-link {
+	float: right;
+	height: 20px;
+	width: 47px;
+}
+#swap {
+	float: right;
+	width: 180px;
+	height: 275px;
+}
+#logo2 {
+	height: 50px;
+	width: 400px;
+	float: left;
+	clear: both;
+}
+#logo1-3 {
+	float: right;
+	height: 325px;
+	width: 350px;
+}
+#logo1 {
+	height: 275px;
+	width: 350px;
+	float: right;
+}
+#logo3 {
+	height: 50px;
+	width: 350px;
+	float: right;
+}
+
+#donate-left {
+	float: left;
+	height: 33px;
+	width: 370px;
+}
+#donate-right {
+	float: right;
+	height: 33px;
+	width: 380px;
+}
+#small-line {
+	height: 10px;
+	width: 750px;
+}
+#footer-text {
+	height: 102px;
+	width: 750px;
+}
+#bottom-links {
+	width: 700px;
+	margin-right: auto;
+	margin-left: auto;
+	line-height: 25px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#footer {
+	width: 750px;
+}
+#main-body {
+	width: 710px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sponsor-gif {
+	float: right;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+#index-mission-gif {
+	width: 730px;
+	height: 110px;
+	clear: both;
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+#text {
+	width: 650px;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+}

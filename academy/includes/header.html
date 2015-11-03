@@ -1,0 +1,132 @@
+<?php
+	// Start output buffering:
+	ob_start();
+
+	// Initialize a session:
+	session_start();
+	
+	// Include the configuration information:
+	require_once (ROOT_DIR . '/includes/config.inc.php'); 
+	
+	//Connect to the DB
+	require_once (ROOT_DIR . '/includes/mysqli_connect.php'); 
+
+	// Check for a $page_title value, set default:
+	if (!isset($page_title)) {
+		$page_title = 'ConferencePRO';
+	}
+?>
+
+<!doctype html>
+<html> 
+<head>
+	<title><?php echo $page_title; ?></title> 
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://blessingthechildren.org/academy/css/styles.css" />
+</head>
+
+<body>
+
+<div id="contentwrapper">
+	
+	<div id="right">
+	
+		<div id="head">
+			<h1 style="float:left" > BCI Academy </h1>
+			
+			<?php 
+			// Display links based upon the login status:
+			if (isset($_SESSION['first_name']) && $page_title != 'Logout') {
+				echo '<div style="float:right"><span>' . $_SESSION['first_name'] . ' | </span><a href="logout.php">Logout</a> |
+				<a href="change_password.php">Change Password</a>';
+					// Add links if the user is an administrator:
+				if ($_SESSION['user_level'] == 1) {
+					echo ' | <a href="view_users.php" title="View All Users">View Users</a> |
+					<a href="insert_user.php"> Add User </a><br />
+					';
+				}
+				echo '</div>';
+				
+			} else { //  Not logged in.
+				echo '<div style="float:right"><a href="register.php" title="Register for the Site">Register</a> |
+				<a href="login.php" title="Login">Login</a> |
+				<a href="forgot_password.php" title="Password Retrieval">Retrieve Password</a></div>
+				';
+			}
+			?>
+		</div>
+		
+		<div id="subnav" >
+			<ul>
+				<?php
+					if ($page_section == 'Students') {
+						if (isset($_GET['id'])) {
+							$childid = $_GET['id'];
+							if ($page_title == 'General Info')
+								echo '<li><a href="general_info.php?id=' . $childid . '"><strong> General Info </strong></a></li>';
+							else
+								echo '<li><a href="general_info.php?id=' . $childid . '"> General Info </a></li>';
+							if ($page_title == 'Enrollment')
+								echo '<li><a href="enrollment.php?id=' . $childid . '"><strong> Enrollment </strong></a></li>';
+							else
+								echo '<li><a href="enrollment.php?id=' . $childid . '"> Enrollment </a></li>';
+							if ($page_title == 'Transcripts')
+								echo '<li><a href="transcripts.php?id=' . $childid . '"><strong> Transcripts </strong></a></li>';
+							else
+								echo '<li><a href="transcripts.php?id=' . $childid . '"> Transcripts </a></li>';
+							if ($page_title == 'Conduct')
+								echo '<li><a href="conduct.php?id=' . $childid . '"><strong> Conduct </strong></a></li>';
+							else
+								echo '<li><a href="conduct.php?id=' . $childid . '"> Conduct </a></li>';
+							if ($page_title == 'Attendance')
+								echo '<li><a href="attendance.php?id=' . $childid . '"><strong> Attendance </strong></a></li>';
+							else
+								echo '<li><a href="attendance.php?id=' . $childid . '"> Attendance </a></li>';
+							if ($page_title == 'Reports')
+								echo '<li><a href="reports.php?id=' . $childid . '"><strong> Reports </strong></a></li>';
+							else
+								echo '<li><a href="reports.php?id=' . $childid . '"> Reports </a></li>';
+						} else {
+							if ($page_title == 'General Info')
+								echo '<li><a href="general_info.php"><strong> General Info </strong></a></li>';
+							else
+								echo '<li><a href="general_info.php"> General Info </a></li>';
+							if ($page_title == 'Enrollment')
+								echo '<li><a href="enrollment.php"><strong> Enrollment </strong></a></li>';
+							else
+								echo '<li><a href="enrollment.php"> Enrollment </a></li>';
+							if ($page_title == 'Transcripts')
+								echo '<li><a href="transcripts.php"><strong> Transcripts </strong></a></li>';
+							else
+								echo '<li><a href="transcripts.php"> Transcripts </a></li>';
+							if ($page_title == 'Conduct')
+								echo '<li><a href="conduct.php"><strong> Conduct </strong></a></li>';
+							else
+								echo '<li><a href="conduct.php"> Conduct </a></li>';
+							if ($page_title == 'Attendance')
+								echo '<li><a href="attendance.php"><strong> Attendance </strong></a></li>';
+							else
+								echo '<li><a href="attendance.php"> Attendance </a></li>';
+							if ($page_title == 'Reports')
+								echo '<li><a href="reports.php"><strong> Reports </strong></a></li>';
+							else
+								echo '<li><a href="reports.php"> Reports </a></li>';
+						}
+					} else if ($page_section == 'Attendance') {
+						echo '<li><a href="daily_attendance.php"> Daily Attendance </a></li>';
+						echo '<li><a href="history.php"> History </a></li>';
+						echo '<li><a href="report.php"> Report </a></li>';
+					} else if ($page_section == 'Classes') {
+						echo '<li><a href="class_offering.php"> Class Sections </a></li>';
+						echo '<li><a href="create_class.php"> Create Class </a></li>';
+					}
+					
+				?>
+				
+				<br style="clear: left" />
+			</ul>
+		</div>
+		
+		<div id="content">
+		
+
